@@ -58,39 +58,37 @@
 
     })();
   </script>
-  <!--<style type="text/css">-->
-      <!--.blue {-->
-          <!--color: #d9eef7;-->
-          <!--border: solid 1px #0076a3;-->
-          <!--background: #0095cd; -->
-      <!--}  -->
-      <!--.rosy {-->
-          <!--color: #fae7e9;-->
-          <!--border: solid 1px #b73948;-->
-          <!--background: #da5867; -->
-      <!--} -->
-      <!--.change {-->
-          <!--background:-webkit-gradient(linear, 0 0, 0 100%,from(#b8c4cb), to(#f6f6f8));-->
-      <!--}-->
-  <!--</style>-->
+  <style type="text/css">
+      .blue {
+          color: #d9eef7;
+          border: solid 1px #0076a3;
+          background: #0095cd;
+      }
+      .rosy {
+          color: #fae7e9;
+          border: solid 1px #b73948;
+          background: #da5867;
+      }
+      .change {
+          background:-webkit-gradient(linear, 0 0, 0 100%,from(#b8c4cb), to(#f6f6f8));
+      }
+  </style>
 
 </head>
 
 <body >
 
-<div class='scrollable' id='wrapper' align='center'>
-  <form>
+<div class='change' id='wrapper' align='center'>
     <fieldset class='form-wrapper'>
         <legend style='color: red'>猜测数字游戏</legend></br>
         <input type='text' class='input-fall' id='input_guess_number'></br></br>
-        <button  class="blue" style='color:red' id='start game' onclick="create_random_number()">开始</button>
-        <button  class="blue"  style='color:red' id='guess' onclick="judge_game_is_start_or_not()">猜数</button></br></br>
-        <button  class="rosy"  style='color:red' onclick="reset()" >重置</button>
+        <button  class="blue" style='color:#ffffff' id='start game' onclick="create_random_number()">开始</button>
+        <button  class="blue"  style='color:#ffffff' id='guess' onclick="judge_game_is_start_or_not()">猜数</button></br></br>
+        <button  class="rosy"  style='color:#ffffff' onclick="reset()" >重置</button>
         <div>
             <h5 id='output content'></h5>
         </div>
     </fieldset>
-  </form>
 </div>
 
 </body>
